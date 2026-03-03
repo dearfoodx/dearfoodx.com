@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
+import { IBM_Plex_Sans_KR } from "next/font/google";
 import "./globals.css";
+
+const ibmPlexSansKR = IBM_Plex_Sans_KR({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "디어푸드엑스 | 식자재의 기준을 바꾸는 식식",
@@ -24,7 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="antialiased">{children}</body>
+      <body className={`${ibmPlexSansKR.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
