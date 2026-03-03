@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "본사 주소",
-    content: "경기도 김포시 양도로 9\n나린플레이스 4층 404호",
+    content: "경기도 김포시 양도로 9\n나린플레이스 4층 417호",
   },
   {
     icon: Phone,
@@ -217,7 +217,7 @@ export default function ContactSection() {
               <div className="p-4 text-center">
                 <p className="font-bold text-sm">본사</p>
                 <p className="opacity-70 text-sm">
-                  경기도 김포시 양도로 9 나린플레이스 4층 404호
+                  경기도 김포시 양도로 9 나린플레이스 4층 417호
                 </p>
               </div>
             </div>

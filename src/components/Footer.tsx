@@ -24,7 +24,7 @@ export default function Footer() {
               <p>주식회사 디어푸드엑스(DearFood-X Inc.)</p>
               <p>대표자: 조석환</p>
               <p>사업자등록번호: 267-81-03967</p>
-              <p>주소: 경기도 김포시 양도로 9 나린플레이스 4층 404호</p>
+              <p>주소: 경기도 김포시 양도로 9 나린플레이스 4층 417호</p>
               <p className="pt-4">&copy; 2025 DearFood-X Inc. All rights reserved.</p>
             </div>
           </div>
