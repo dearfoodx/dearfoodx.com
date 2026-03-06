@@ -48,7 +48,7 @@ export default function Footer() {
             <div>
               <h4 className="mb-4 font-bold">고객센터</h4>
               <div className="space-y-1.5 opacity-80 text-sm">
-                <p>전화: 1833-5123</p>
+                <p>1833-5153</p>
                 <p>운영시간: 평일 09:00 - 18:00</p>
                 <p>(주말 및 공휴일 휴무)</p>
                 <p>이메일: help@dearfoodx.com</p>
